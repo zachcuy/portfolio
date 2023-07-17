@@ -4,12 +4,7 @@ import Navbar from "./Navbar";
 import astronaut from "../assets/img/astronaut.svg";
 import Blob from "./Blob";
 import { Canvas } from "@react-three/fiber";
-import {
-  MeshDistortMaterial,
-  OrbitControls,
-  Sphere,
-  Wireframe,
-} from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 
 const Section = styled.div`
   height: 100vh;
@@ -67,13 +62,10 @@ const JobRole = styled.div`
   gap: 10px;
 `;
 
-const Line = styled.img`
-  height: 5px;
-`;
-
 const Subtitle = styled.h2`
   font-size: 24px;
-  color: #da4ea2;
+  /* color: #da4ea2; */
+  color: rgb(170, 240, 209);
 
   @media only screen and (max-width: 768px) {
     font-size: 18px;

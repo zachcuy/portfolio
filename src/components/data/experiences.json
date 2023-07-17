@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "role": "Systems Engineering Intern",
+    "year1": 2020,
+    "year2": 2022,
+    "company": "Kingsman Scientific Management",
+    "desc": ["RESPONSIBILITY 1", "RESPONSIBILITY 2", "RESPONSIBILITY 3"]
+  },
+  {
+    "id": 2,
+    "role": "Engineering Intern",
+    "year1": 2022,
+    "year2": 2023,
+    "company": "Paramount Resources Ltd.",
+    "desc": ["RESPONSIBILITY 1", "RESPONSIBILITY 2", "RESPONSIBILITY 3"]
+  }
+]
