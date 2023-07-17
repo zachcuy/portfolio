@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Shiba from "./Shiba";
 import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+import Links from "./Links";
 
 const Section = styled.div`
   height: 100vh;
@@ -28,7 +29,11 @@ const ShibaCanvas = () => {
   );
 };
 const Work = () => {
-  return <Section></Section>;
+  return (
+    <Section>
+      <Links />
+    </Section>
+  );
 };
 
 export default Work;
