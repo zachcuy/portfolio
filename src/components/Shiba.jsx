@@ -9,9 +9,10 @@ Title: Shiba
 
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
+import shibaGLTF from "../assets/shiba-transformed.glb";
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF("/shiba-transformed.glb");
+  const { nodes, materials } = useGLTF(shibaGLTF);
   return (
     <group {...props} dispose={null}>
       <mesh

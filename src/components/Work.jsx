@@ -1,21 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 import Shiba from "./Shiba";
-import Town from "./Town";
 import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
 const Section = styled.div`
   height: 100vh;
-  /* background-color: #b67b34; */
   scroll-snap-align: center;
 `;
-const Work = () => {
+
+const ShibaCanvas = () => {
   return (
-    <Section>
+    <>
       <Canvas>
         <Stage environment="city" intensity={0.6}>
-          <Town />
           <Shiba />
           <OrbitControls
             enableZoom={false}
@@ -26,8 +24,11 @@ const Work = () => {
           />
         </Stage>
       </Canvas>
-    </Section>
+    </>
   );
+};
+const Work = () => {
+  return <Section></Section>;
 };
 
 export default Work;
