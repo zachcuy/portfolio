@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.2efadd35.js",
+    "main.js": "/portfolio/static/js/main.be20c504.js",
     "static/media/astronaut.svg": "/portfolio/static/media/astronaut.cacac1201e729dadc724b2ce4e8e3761.svg",
     "static/media/astro_work.svg": "/portfolio/static/media/astro_work.5c25d581547ec975f5f64d81e5bdb24f.svg",
     "index.html": "/portfolio/index.html",
-    "main.2efadd35.js.map": "/portfolio/static/js/main.2efadd35.js.map"
+    "main.be20c504.js.map": "/portfolio/static/js/main.be20c504.js.map"
   },
   "entrypoints": [
-    "static/js/main.2efadd35.js"
+    "static/js/main.be20c504.js"
   ]
 }
