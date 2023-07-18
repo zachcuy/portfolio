@@ -20,6 +20,7 @@ const Link = styled.li`
   height: 1.5rem;
   width: 1.5rem;
   padding-bottom: 20px;
+  font-size: 0;
 
   &:hover {
     fill: var(--slate-200);
@@ -36,6 +37,7 @@ function Links() {
             target="_blank"
             rel="noreferrer"
           >
+            LinkedIn
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -52,6 +54,7 @@ function Links() {
             target="_blank"
             rel="noreferrer"
           >
+            GitHub
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"

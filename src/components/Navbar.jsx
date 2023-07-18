@@ -26,6 +26,7 @@ const ListItem = styled.li`
   fill: var(--slate-400);
   height: 1.5rem;
   width: 1.5rem;
+  font-size: 0;
   &:hover {
     fill: var(--slate-200);
   }
@@ -43,6 +44,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
+                LinkedIn
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -59,6 +61,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
+                GitHub
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
