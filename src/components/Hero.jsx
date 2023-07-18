@@ -2,9 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
 import astronaut from "../assets/img/astronaut.svg";
-import Blob from "./Blob";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
+import BlobCanvas from "./Blob/BlobCanvas";
 
 const Section = styled.div`
   height: 100vh;
@@ -48,10 +46,10 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 50px;
+  font-size: 3rem;
 
   @media only screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 2.5rem;
     text-align: center;
   }
 `;
@@ -63,21 +61,20 @@ const JobRole = styled.div`
 `;
 
 const Subtitle = styled.h2`
-  font-size: 24px;
-  /* color: #da4ea2; */
-  color: rgb(170, 240, 209);
+  font-size: 1.5rem;
+  color: rgb(99, 254, 218);
 
   @media only screen and (max-width: 768px) {
-    font-size: 18px;
+    font-size: 1rem;
     text-align: center;
   }
 `;
 
 const Desc = styled.p`
-  font-size: 20px;
-  color: lightgray;
+  font-size: 1.2rem;
+  color: rgb(148 163 184);
   @media only screen and (max-width: 768px) {
-    font-size: 14px;
+    font-size: 1rem;
     padding: 10px;
     text-align: center;
   }
@@ -86,13 +83,13 @@ const Desc = styled.p`
 const Right = styled.div`
   flex: 3;
   position: relative;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1420px) {
     display: none;
   }
 `;
 
 const Img = styled.img`
-  height: 550px;
+  height: 650px;
   object-fit: contain;
   position: absolute;
   top: 0;
@@ -103,9 +100,8 @@ const Img = styled.img`
   animation: animate 2s infinite ease alternate;
   pointer-events: none;
 
-  @media only screen and (max-width: 768px) {
-    width: 300px;
-    height: 300px;
+  @media only screen and (max-width: 1024px) {
+    display: none;
   }
 
   @keyframes animate {
@@ -135,17 +131,7 @@ const Hero = () => {
         </Left>
 
         <Right>
-          <Canvas camera={{ fov: 60, position: [5, 5, 5] }}>
-            <OrbitControls
-              enableZoom={false}
-              enablePan={false}
-              enableRotate={false}
-              autoRotate
-            />
-            <ambientLight intensity={1} />
-            <directionalLight position={[3, 2, 1]} />
-            <Blob />
-          </Canvas>
+          <BlobCanvas />
           <Img src={astronaut} />
         </Right>
       </Container>

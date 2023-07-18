@@ -1,9 +1,8 @@
 import styled from "styled-components";
 import Hero from "./components/Hero";
-import Work from "./components/Work";
+import Experience from "./components/Experience";
 import Links from "./components/Links";
 import Projects from "./components/Projects";
-import Volunteer from "./components/Volunteer";
 
 const Container = styled.div`
   height: 100vh;
@@ -22,9 +21,8 @@ const App = () => {
     <>
       <Container>
         <Hero />
-        <Work />
+        <Experience />
         {/* <Projects /> */}
-        {/* <Volunteer /> */}
         <Links />
       </Container>
     </>

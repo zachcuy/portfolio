@@ -1,9 +1,8 @@
 import React, { useMemo, useRef } from "react";
 import vertexShader from "./shaders/vertexShader";
 import fragmentShader from "./shaders/fragmentShader";
-import { useFrame } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { MathUtils } from "three";
-import { MeshDistortMaterial, Sphere } from "@react-three/drei";
 
 const Blob = () => {
   const mesh = useRef();
