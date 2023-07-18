@@ -4,15 +4,20 @@ import styled from "styled-components";
 const Card = styled.div`
   display: flex;
   flex-direction: column;
-  width: 90%;
   padding: 1rem;
   padding-bottom: 1.5rem;
+
   &:hover {
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6.9px);
     -webkit-backdrop-filter: blur(6.9px);
     background: rgba(30, 41, 59, 0.5);
+  }
+
+  @media only screen and (max-width: 768px) {
+    align-items: center;
+    justify-content: center;
   }
 `;
 

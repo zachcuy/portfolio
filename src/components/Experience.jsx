@@ -76,7 +76,7 @@ const Right = styled.div`
   justify-content: center;
   gap: 1rem;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1024px) {
     align-items: center;
   }
 `;
@@ -84,7 +84,7 @@ const Right = styled.div`
 const Title = styled.h1`
   font-size: 1.3rem;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1024px) {
     font-size: 1rem;
     text-align: center;
   }
@@ -92,7 +92,6 @@ const Title = styled.h1`
 
 const CardHolder = styled.div`
   width: 100%;
-  margin-bottom: 3rem;
 `;
 
 const Experience = () => {
