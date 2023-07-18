@@ -21,13 +21,13 @@ const List = styled.ul`
 
 const ListItem = styled.li`
   box-sizing: border-box;
-  border: 0 solid #e5e7eb;
+  border: 0 solid var(--slate-50);
   display: block;
-  fill: rgb(148 163 184);
+  fill: var(--slate-400);
   height: 1.5rem;
   width: 1.5rem;
   &:hover {
-    fill: rgb(226 232 240);
+    fill: var(--slate-200);
   }
 `;
 

@@ -15,14 +15,14 @@ const LinkSet = styled.div`
 
 const Link = styled.li`
   list-style: none;
-  fill: rgb(148 163 184);
+  fill: var(--slate-400);
   color: #ffffff;
   height: 1.5rem;
   width: 1.5rem;
   padding-bottom: 20px;
 
   &:hover {
-    fill: rgb(226 232 240);
+    fill: var(--slate-200);
   }
 `;
 
@@ -47,7 +47,11 @@ function Links() {
           </a>
         </Link>
         <Link>
-          <a href="https://github.com/SCBee" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/SCBee"
+            target="_blank"
+            rel="noreferrer"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"

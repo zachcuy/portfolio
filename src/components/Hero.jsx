@@ -62,7 +62,7 @@ const JobRole = styled.div`
 
 const Subtitle = styled.h2`
   font-size: 1.5rem;
-  color: rgb(99, 254, 218);
+  color: var(--mint);
 
   @media only screen and (max-width: 768px) {
     font-size: 1rem;
@@ -72,7 +72,7 @@ const Subtitle = styled.h2`
 
 const Desc = styled.p`
   font-size: 1.2rem;
-  color: rgb(148 163 184);
+  color: var(--slate-400);
   @media only screen and (max-width: 768px) {
     font-size: 1rem;
     padding: 10px;
@@ -134,7 +134,10 @@ const Hero = () => {
 
         <Right>
           <BlobCanvas />
-          <Img src={astronaut} />
+          <Img
+            src={astronaut}
+            alt="floating astronaut holding balloons"
+          />
         </Right>
       </Container>
     </Section>

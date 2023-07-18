@@ -31,7 +31,7 @@ const Role = styled.p`
   font-size: 1rem;
 
   span {
-    color: rgb(99, 254, 218);
+    color: var(--mint);
   }
 
   @media only screen and (max-width: 768px) {
@@ -42,7 +42,7 @@ const Role = styled.p`
 const Range = styled.p`
   align-self: flex-end;
   font-size: 0.95rem;
-  color: rgb(100 116 139);
+  color: var(--slate-500);
 
   @media only screen and (max-width: 768px) {
     font-size: 0.85rem;
@@ -56,11 +56,11 @@ const Bullets = styled.ul`
 const Bullet = styled.li`
   padding: 0.5rem 0px;
   font-size: 0.9rem;
-  color: rgb(148 163 184);
+  color: var(--slate-400);
   &::before {
     content: "▹ ";
     left: 0px;
-    color: rgb(99, 254, 218);
+    color: var(--mint);
   }
 
   @media only screen and (max-width: 768px) {
@@ -115,12 +115,17 @@ const ExperienceCard = () => {
             metrics resulting in up to 36% operational cost reductions.
           </Bullet>
           <Bullet>
-            Designed analytics environment based on Docker and Azure.
-            Standardized the Python and JavaScript dependencies.
-          </Bullet>
-          <Bullet>
             Decreased bug-fix turnaround time by 25% by writing automated test
             scripts and detailed bug reports with replication steps.
+          </Bullet>
+          <Bullet>
+            Decreased operational monitoring costs by 42% by designing and
+            prototyping an airflow sensor using Raspberry Pi, Azure IoT, and
+            Azure RTOS.
+          </Bullet>
+          <Bullet>
+            Designed analytics environment based on Docker and Azure.
+            Standardized the Python and JavaScript dependencies.
           </Bullet>
         </Bullets>
       </Card>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import styled from "styled-components";
 import ExperienceCard from "./Experience/ExperienceCard";
 import astroWork from "../assets/img/astro_work.svg";
@@ -19,7 +19,6 @@ const Section = styled.div`
 const Container = styled.div`
   display: flex;
   height: 100%;
-  /* scroll-snap-align: center; */
   width: 70%;
   justify-content: space-between;
 
@@ -99,7 +98,10 @@ const Experience = () => {
     <Section>
       <Container>
         <Left>
-          <ImgWork src={astroWork} />
+          <ImgWork
+            src={astroWork}
+            alt="astronaut working on a starry desk"
+          />
         </Left>
 
         <Right>
