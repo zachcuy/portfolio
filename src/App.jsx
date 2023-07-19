@@ -27,6 +27,10 @@ const Container = styled.div`
   }
   background-color: rgb(15 23 42);
   color: var(--slate-50);
+
+  @media only screen and (max-width: 768) {
+    scroll-snap-type: none;
+  }
 `;
 
 const App = () => {
@@ -35,7 +39,7 @@ const App = () => {
       <Container>
         <Hero />
         <Experience />
-        <Projects />
+        {/* <Projects /> */}
         <Links />
       </Container>
     </>

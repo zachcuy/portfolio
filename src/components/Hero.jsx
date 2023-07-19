@@ -15,11 +15,14 @@ const Section = styled.div`
   @media only screen and (max-width: 768px) {
     height: 100vh;
   }
+  @media only screen and (max-width: 450px) {
+    height: 100vh;
+    scroll-snap-align: none;
+  }
 `;
 
 const Container = styled.div`
   height: 100%;
-  scroll-snap-align: center;
   width: 70%;
   display: flex;
   justify-content: space-between;
@@ -50,6 +53,10 @@ const Title = styled.h1`
 
   @media only screen and (max-width: 768px) {
     font-size: 2.5rem;
+    text-align: center;
+  }
+  @media only screen and (max-width: 450px) {
+    font-size: 2rem;
     text-align: center;
   }
 `;
@@ -127,7 +134,7 @@ const Hero = () => {
             collide!
           </Desc>
           <Desc>
-            Currently looking for opportunities to grow as an Engineer.
+            Currently looking for opportunities to grow as an engineer.
           </Desc>
           <Navbar />
         </Left>

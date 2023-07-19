@@ -4,7 +4,7 @@ import ExperienceCard from "./Experience/ExperienceCard";
 import astroWork from "../assets/img/astro_work.svg";
 
 const Section = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   scroll-snap-align: center;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,11 @@ const Section = styled.div`
   justify-content: space-between;
 
   @media only screen and (max-width: 768px) {
-    height: 100vh;
+    min-height: 100vh;
+  }
+  @media only screen and (max-width: 450px) {
+    min-height: 100vh;
+    scroll-snap-align: none;
   }
 `;
 
@@ -85,6 +89,10 @@ const Title = styled.h1`
 
   @media only screen and (max-width: 1024px) {
     font-size: 1rem;
+    text-align: center;
+  }
+  @media only screen and (max-width: 450px) {
+    font-size: 0.8rem;
     text-align: center;
   }
 `;

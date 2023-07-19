@@ -7,12 +7,14 @@ const Card = styled.div`
   padding: 1rem;
   padding-bottom: 1.5rem;
 
-  &:hover {
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.9px);
-    -webkit-backdrop-filter: blur(6.9px);
-    background: rgba(30, 41, 59, 0.5);
+  @media only screen and (min-width: 1420px) {
+    &:hover {
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(6.9px);
+      -webkit-backdrop-filter: blur(6.9px);
+      background: rgba(30, 41, 59, 0.5);
+    }
   }
 
   @media only screen and (max-width: 768px) {
@@ -37,6 +39,9 @@ const Role = styled.p`
   @media only screen and (max-width: 768px) {
     font-size: 0.85rem;
   }
+  @media only screen and (max-width: 450px) {
+    font-size: 0.8rem;
+  }
 `;
 
 const Range = styled.p`
@@ -46,6 +51,9 @@ const Range = styled.p`
 
   @media only screen and (max-width: 768px) {
     font-size: 0.85rem;
+  }
+  @media only screen and (max-width: 450px) {
+    font-size: 0.8rem;
   }
 `;
 
@@ -65,6 +73,9 @@ const Bullet = styled.li`
 
   @media only screen and (max-width: 768px) {
     font-size: 0.85rem;
+  }
+  @media only screen and (max-width: 450px) {
+    font-size: 0.8rem;
   }
 `;
 
