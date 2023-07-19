@@ -5,7 +5,6 @@ import astroWork from "../assets/img/astro_work.svg";
 
 const Section = styled.div`
   min-height: 100vh;
-  scroll-snap-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,17 +15,17 @@ const Section = styled.div`
   }
   @media only screen and (max-width: 450px) {
     min-height: 100vh;
-    scroll-snap-align: none;
   }
 `;
 
 const Container = styled.div`
   display: flex;
-  height: 100%;
+  height: 100vh;
   width: 70%;
   justify-content: space-between;
 
   @media only screen and (max-width: 768px) {
+    height: 100%;
     width: 100%;
     flex-direction: column;
     align-items: center;

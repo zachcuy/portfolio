@@ -8,6 +8,20 @@ const LinkSet = styled.div`
   position: fixed;
   bottom: 0px;
   right: 3vw;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+const Email = styled.div`
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  position: fixed;
+  bottom: 0px;
+  left: 3vw;
+
   @media only screen and (max-width: 768px) {
     display: none;
   }
@@ -66,6 +80,7 @@ function Links() {
           </a>
         </Link>
       </LinkSet>
+      {/* <Email>zachary.cromwell.uy@gmail.com</Email> */}
     </>
   );
 }

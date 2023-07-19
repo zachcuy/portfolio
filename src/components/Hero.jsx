@@ -6,7 +6,6 @@ import BlobCanvas from "./Blob/BlobCanvas";
 
 const Section = styled.div`
   height: 100vh;
-  scroll-snap-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +16,6 @@ const Section = styled.div`
   }
   @media only screen and (max-width: 450px) {
     height: 100vh;
-    scroll-snap-align: none;
   }
 `;
 

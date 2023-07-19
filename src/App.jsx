@@ -19,7 +19,6 @@ const Container = styled.div`
   --mint: rgb(99, 254, 218);
 
   height: 100vh;
-  scroll-snap-type: y mandatory;
   overflow-y: auto;
   scrollbar-width: none;
   &::-webkit-scrollbar {
@@ -39,7 +38,7 @@ const App = () => {
       <Container>
         <Hero />
         <Experience />
-        {/* <Projects /> */}
+        <Projects />
         <Links />
       </Container>
     </>
