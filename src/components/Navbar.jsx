@@ -32,6 +32,19 @@ const ListItem = styled.li`
   }
 `;
 
+const Email = styled.li`
+  box-sizing: border-box;
+  font-size: 1rem;
+`;
+
+const EmailMe = styled.a`
+  font-size: 1rem;
+  color: var(--slate-400);
+  &:hover {
+    color: var(--slate-200);
+  }
+`;
+
 const Navbar = () => {
   return (
     <Section>
@@ -72,6 +85,15 @@ const Navbar = () => {
                 </svg>
               </a>
             </ListItem>
+            <Email>
+              <EmailMe
+                href="mailto:zachary.uy@outlook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                zachary.uy@outlook.com
+              </EmailMe>
+            </Email>
           </List>
         </Links>
       </Container>

@@ -144,39 +144,6 @@ const ExperienceCard = () => {
       <Card>
         <Job>
           <Role>
-            Software Engineering Intern
-            <span> @ Tesla</span>
-          </Role>
-          <Range>May 2021 - Jan 2022</Range>
-        </Job>
-
-        <Bullets>
-          <Bullet>
-            Improved incident response times by 20% by developing a backend
-            service to automate feature ranking for sensor data anomalies using
-            AWS Lambda, S3, Step Functions, Glue, and SageMaker.
-          </Bullet>
-          <Bullet>
-            Automated and optimized business logic for experimental
-            manufacturing processes using A/B, auto-targeting, and multivariate
-            testing.
-          </Bullet>
-          <Bullet>
-            Enriched system metrics by integrating linked telemetry across
-            siloed subsystems and facilitated in-depth sensor data logging.
-          </Bullet>
-          {/* <Bullet>
-            Led the development of several products E2E, from identifying system
-            requirements and internal dependencies to workload balancing,
-            implementation, testing, and configuring metrics, alarms, and
-            monitors.
-          </Bullet> */}
-        </Bullets>
-      </Card>
-
-      <Card>
-        <Job>
-          <Role>
             Software Developer
             <span> @ R3</span>
           </Role>
@@ -194,6 +161,7 @@ const ExperienceCard = () => {
           </Bullet>
         </Bullets>
       </Card>
+
       {/* <Card>
         <Job>
           <Role>

@@ -118,6 +118,61 @@ const Img = styled.img`
   }
 `;
 
+const ScrollContainer = styled.div`
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+const ScrollField = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+`;
+
+const ScrollMouse = styled.div`
+  width: 50px;
+  height: 90px;
+  border: 3px solid var(--slate-600);
+  border-radius: 60px;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--slate-400);
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 2s infinite;
+    -webkit-animation: wheel 2s infinite;
+  }
+  @keyframes wheel {
+    to {
+      opacity: 0;
+      top: 60px;
+    }
+  }
+
+  @-webkit-keyframes wheel {
+    to {
+      opacity: 0;
+      top: 60px;
+    }
+  }
+`;
+
 const Hero = () => {
   return (
     <Section>
@@ -145,6 +200,11 @@ const Hero = () => {
           />
         </Right>
       </Container>
+      {/* <ScrollContainer>
+        <ScrollField>
+          <ScrollMouse />
+        </ScrollField>
+      </ScrollContainer> */}
     </Section>
   );
 };

@@ -36,10 +36,10 @@ const App = () => {
   return (
     <>
       <Container>
+        <Links />
         <Hero />
         <Experience />
-        <Projects />
-        <Links />
+        {/* <Projects /> */}
       </Container>
     </>
   );
