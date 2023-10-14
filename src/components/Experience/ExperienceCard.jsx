@@ -85,7 +85,7 @@ const ExperienceCard = () => {
       <Card>
         <Job>
           <Role>
-            Engineering Intern
+            Software Engineering Intern
             <span> @ Paramount Resources</span>
           </Role>
           <Range>May 2022 - Sep 2023</Range>
@@ -93,20 +93,16 @@ const ExperienceCard = () => {
 
         <Bullets>
           <Bullet>
-            Increased realized profits by 1.5 million CAD per month for blending
-            operations by developing a software-based analytics tool to
-            determine the optimal volume allocation for each sales pipeline,
-            product, and source.
+            Increased realized profits by $1.8 million USD per month for blending operations by developing a
+            mathematical optimization tool using Python and C++
           </Bullet>
           <Bullet>
-            Decreased profit losses by 150,000 CAD per month across all Grande
-            Prairie assets by determining well shut-in priorities during
-            constrained gas or liquids flow.
+            Decreased profit losses by $750,000 USD per month across all assets with a web application that
+            delivered daily updates on asset production requirements using React, Flask, and AWS Amplify
           </Bullet>
           <Bullet>
-            Identified profitable opportunities in the Kaybob and Grande Prairie
-            regions by conducting an Operations Research study on wells and
-            facilities with the Reservoir & Development Team.
+            Reduced Production Engineering response time from 1-2 weeks to 2 days by integrating Python data
+            wrangling scripts into Spotfire and Power BI dashboards
           </Bullet>
         </Bullets>
       </Card>
@@ -117,26 +113,25 @@ const ExperienceCard = () => {
             Systems Engineering Intern
             <span> @ Kingsman</span>
           </Role>
-          <Range>Jan 2022 - May 2022</Range>
+          <Range>May 2021 - May 2022</Range>
         </Job>
 
         <Bullets>
           <Bullet>
-            Built an energy analytics web application providing clients key
-            metrics resulting in up to 36% operational cost reductions.
+            Reduced operational costs by up to 36% by building an energy analytics web application with sensor
+            integrations providing key metrics to clients using React, Express, and MongoDB
           </Bullet>
           <Bullet>
-            Decreased bug-fix turnaround time by 25% by writing automated test
-            scripts and detailed bug reports with replication steps.
+            Decreased monitoring costs by 8% by designing and prototyping an airflow sensor that allowed the team
+            to control endpoints through the web app using STM32 and Azure IoT
           </Bullet>
           <Bullet>
-            Decreased operational monitoring costs by 42% by designing and
-            prototyping an airflow sensor using Raspberry Pi, Azure IoT, and
-            Azure RTOS.
+            Lowered incident response times by 20% by developing a backend service to automate feature ranking
+            for sensor data anomalies using AWS Lambda, S3, Step Functions, Glue, and SageMaker
           </Bullet>
           <Bullet>
-            Designed analytics environment based on Docker and Azure.
-            Standardized the Python and JavaScript dependencies.
+            Improved bug-fix turnaround time by writing automated test scripts and detailed bug reports with
+            replication steps
           </Bullet>
         </Bullets>
       </Card>
@@ -152,12 +147,17 @@ const ExperienceCard = () => {
 
         <Bullets>
           <Bullet>
-            Built real-time gaming analytics software providing users valuable
-            performance metrics leading to 100+ clients.
+            Built real-time gaming analytics software providing users valuable performance metrics leading to 50+
+            clients
           </Bullet>
+
           <Bullet>
-            Improved user experience with a DX11 overlay by allowing dynamic
-            feature customizations.
+            Wrote a C++ memory hooking library for third-party gaming applications to gather data used in
+            visualizations and gameplay optimization algorithms
+          </Bullet>
+
+          <Bullet>
+            Improved overlay responsiveness by implementing a fast, bloat-free external window using ImGui
           </Bullet>
         </Bullets>
       </Card>
