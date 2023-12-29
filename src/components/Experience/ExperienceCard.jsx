@@ -110,7 +110,7 @@ const ExperienceCard = () => {
       <Card>
         <Job>
           <Role>
-            Systems Engineering Intern
+            Software Engineering Intern
             <span> @ Kingsman</span>
           </Role>
           <Range>May 2021 - May 2022</Range>

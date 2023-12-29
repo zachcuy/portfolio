@@ -180,7 +180,7 @@ const Hero = () => {
         <Left>
           <Title>Hi, I'm Zachary Uy!</Title>
           <JobRole>
-            <Subtitle>Mechanical and Mechatronics Engineer</Subtitle>
+            <Subtitle>Software Engineer</Subtitle>
           </JobRole>
           <Desc>
             I enjoy working on projects where the hardware and software worlds
