@@ -91,7 +91,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                zachary.uy@outlook.com
+                zachary.cromwell.uy@gmail.com
               </EmailMe>
             </Email>
           </List>
