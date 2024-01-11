@@ -187,7 +187,7 @@ const Hero = () => {
             collide!
           </Desc>
           <Desc>
-            Currently looking for opportunities to grow as an engineer.
+            Currently seeking May 2024 New Grad Opportunities.
           </Desc>
           <Navbar />
         </Left>

@@ -101,8 +101,8 @@ const ExperienceCard = () => {
             delivered daily updates on asset production requirements using React, Flask, and AWS Amplify
           </Bullet>
           <Bullet>
-            Reduced Production Engineering response time from 1-2 weeks to 2 days by integrating Python data
-            wrangling scripts into Spotfire and Power BI dashboards
+            Enhanced Production SCADA web view functionality and usability by developing new features and
+            components using TypeScript, React, Flask, and PostgreSQL
           </Bullet>
         </Bullets>
       </Card>
@@ -122,8 +122,8 @@ const ExperienceCard = () => {
             integrations providing key metrics to clients using React, Express, and MongoDB
           </Bullet>
           <Bullet>
-            Decreased monitoring costs by 8% by designing and prototyping an airflow sensor that allowed the team
-            to control endpoints through the web app using STM32 and Azure IoT
+            Decreased monitoring costs by 5% by designing and prototyping an airflow sensor that allowed the team
+            to control endpoints through the web app using STM32, FreeRTOS, AWS IoT
           </Bullet>
           <Bullet>
             Lowered incident response times by 20% by developing a backend service to automate feature ranking
@@ -161,22 +161,6 @@ const ExperienceCard = () => {
           </Bullet>
         </Bullets>
       </Card>
-
-      {/* <Card>
-        <Job>
-          <Role>
-            IT Engineering Student
-            <span> @ Essential Energy</span>
-          </Role>
-          <Range>May 2016 - Aug 2018</Range>
-        </Job>
-
-        <Bullets>
-          <Bullet>
-            Implemented mobile security protocol to improve data safety.
-          </Bullet>
-        </Bullets>
-      </Card> */}
     </>
   );
 };
