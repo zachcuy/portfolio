@@ -1,57 +1,55 @@
 import React from "react";
 import styled from "styled-components";
+import Projects from "./Projects/ProjectsCard";
 
 const Section = styled.div`
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 `;
 
 const Container = styled.div`
-  display: grid;
+  display: flex;
   height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    ". . . . . . . . ."
-    ". area1 area1 area1 . area2 area2 area2 ."
-    ". area1 area1 area1 . area2 area2 area2 ."
-    ". . . . . . . . ."
-    ". area3 area3 area3 . area4 area4 area4 ."
-    ". area3 area3 area3 . area4 area4 area4 ."
-    ". . . . . . . . .";
+  width: 70%;
+  justify-content: center;
+  flex-direction: column;
+
+  @media only screen and (max-width: 768px) {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
 `;
 
-const Area1 = styled.div`
-  grid-area: area1;
-  border: 2px solid red;
+const Title = styled.h1`
+  font-size: 1.3rem;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 1rem;
+    text-align: center;
+  }
+  @media only screen and (max-width: 450px) {
+    font-size: 0.8rem;
+    text-align: center;
+  }
 `;
 
-const Area2 = styled.div`
-  grid-area: area2;
-  border: 2px solid red;
+const CardHolder = styled.div`
+  width: 100%;
 `;
 
-const Area3 = styled.div`
-  grid-area: area3;
-  border: 2px solid red;
-`;
-
-const Area4 = styled.div`
-  grid-area: area4;
-  border: 2px solid red;
-`;
-
-const Projects = () => {
+const Experience = () => {
   return (
     <Section>
       <Container>
-        <Area1>Racing FPV Drone</Area1>
-        <Area2>Autonomous UAV Surveillance Robot</Area2>
-        <Area3>Financial Market Data Analytics</Area3>
-        <Area4>MMORPG Performance Analytics</Area4>
+        <Title>PROJECTS</Title>
+        <CardHolder>
+          <Projects />
+        </CardHolder>
       </Container>
     </Section>
   );
 };
 
-export default Projects;
+export default Experience;
