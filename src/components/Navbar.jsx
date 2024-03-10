@@ -87,7 +87,7 @@ const Navbar = () => {
             </ListItem>
             <Email>
               <EmailMe
-                href="mailto:zachary.uy@outlook.com"
+                href="mailto:zachary.cromwell.uy@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
