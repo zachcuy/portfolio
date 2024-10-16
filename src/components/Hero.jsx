@@ -132,7 +132,7 @@ const Hero = () => {
             collide!
           </Desc>
           <Desc>
-            Currently seeking May 2024 New Grad Opportunities.
+            Currently working as a Software Engineer.
           </Desc>
           <Navbar />
         </Left>
