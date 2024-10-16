@@ -47,7 +47,7 @@ function Links() {
       <LinkSet>
         <Link>
           <a
-            href="https://www.linkedin.com/in/zacharyuy/"
+            href="https://www.linkedin.com/in/zachuy/"
             target="_blank"
             rel="noreferrer"
           >
@@ -64,7 +64,7 @@ function Links() {
         </Link>
         <Link>
           <a
-            href="https://github.com/SCBee"
+            href="https://github.com/zachcuy"
             target="_blank"
             rel="noreferrer"
           >

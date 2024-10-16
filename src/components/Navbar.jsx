@@ -53,7 +53,7 @@ const Navbar = () => {
           <List>
             <ListItem>
               <a
-                href="https://www.linkedin.com/in/zacharyuy/"
+                href="https://www.linkedin.com/in/zachuy/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -70,7 +70,7 @@ const Navbar = () => {
             </ListItem>
             <ListItem>
               <a
-                href="https://github.com/SCBee"
+                href="https://github.com/zachcuy"
                 target="_blank"
                 rel="noreferrer"
               >
