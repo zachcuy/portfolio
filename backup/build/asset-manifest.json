@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/static/js/main.cabe49d0.js",
+    "static/media/astronaut.svg": "/static/media/astronaut.cacac1201e729dadc724b2ce4e8e3761.svg",
+    "static/media/astro_work.svg": "/static/media/astro_work.5c25d581547ec975f5f64d81e5bdb24f.svg",
+    "index.html": "/index.html",
+    "main.cabe49d0.js.map": "/static/js/main.cabe49d0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cabe49d0.js"
+  ]
+}
